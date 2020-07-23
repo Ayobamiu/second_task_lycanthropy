@@ -1,0 +1,19 @@
+promtp: nummber of times they want to record events. e.g. records = 5
+set count = 0
+jornal = []
+while count is less than records:
+ promtp: number of events. e.g. numberOfEvents = 3
+ set eventCount =  0
+ set events = []
+ set werewolf = false
+ events includes pizza && werewolf = true
+ while eventCount is less than numberOfEvents:
+     prompt: Enter event
+     push event into events
+ return events
+push {events, werewolf} into jornal
+return jornal
+
+"For the day " +
+        count +
+        " record: How many events happened? If your events include PIZZA, it'll be recorded that the Jacques transformed that day"
